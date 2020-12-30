@@ -34,6 +34,20 @@ li {
 }
 
 /* Header Styles */
+.logoAndNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upperNav li {
+  display: inline;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.underNav img {
+  opacity: 0.5;
+}
 
 /* Footer Styles */
 
