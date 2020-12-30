@@ -34,6 +34,7 @@ li {
 }
 
 /* Header Styles */
+
 .logoAndNav {
   display: flex;
   justify-content: space-between;
@@ -68,6 +69,118 @@ footer {
 
 /* Main Page Styles */
 
+.index img {
+  min-width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+/* .underNav {
+  text-align: center;
+} */
+
+.index h3 {
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+
+.index p {
+  position: absolute;
+  top: 350px;
+  left: 400px;
+}
+
+.index button {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+}
+
+.whoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.whoLeft {
+  width: 50%;
+  line-height: 1.2rem;
+}
+
+.whoRight img {
+  width: 100%;
+  height: 350px;
+}
+
+.allStuff {
+  display: flex;
+  justify-content: space-between;
+}
+
+.allLeft img {
+  width: 100%;
+  height: 350px;
+}
+
+.allRight {
+  width: 50%;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews img {
+  width: 100%;
+  height: 150px;
+  border-radius: 100%;
+  box-shadow: -5px -5px lightgray;
+}
+
+.first,
+.second {
+  display: flex;
+}
+
+.expertTrainers h2, 
+.expertTrainers p {
+  text-align: center;
+}
+
+.expertTrainers {
+  background-image: url('./images/Men_White_background_Push-up_Glance_Muscle_512886_1280x897.jpg');
+  height: 500px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  
+  width: 100%;
+  height: 200px;
+}
+
+
 /* About Page Styles */
 
 /* Contact Page Styles */
+
+/* Responsive */
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}
